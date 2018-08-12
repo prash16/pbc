@@ -83,4 +83,4 @@ Presence of ascites - 0 = no, 1 = yes.
 |Survival Analysis   |   Survival Time
 
 
-[Final report]()
+[Final report](reports/report.pdf)
