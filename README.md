@@ -23,50 +23,59 @@ SIZE: 418 observations, 20 variables
 ***Survival Time*** -The number of days between registration and the earlier of death, liver transplantation, or study analysis time in July, 1986.
 
 
-Censoring - 1 if X is time to death, 0 if time to censoring
+***Censoring*** - 1 if X is time to death, 0 if time to censoring
 
 
-Treatment - Treatment Code, 1 = D-penicillamine, 2 = placebo.
+***Treatment*** - Treatment Code, 1 = D-penicillamine, 2 = placebo.
 
-Age - Age in years. For the first 312 cases, age was calculated by dividing the number of days between birth and study registration by 365.
+***Age*** - Age in years. For the first 312 cases, age was calculated by dividing the number of days between birth and study registration by 365.
 
 
-Gender - 0 = male, 1 = female.
+***Gender*** - 0 = male, 1 = female.
 Presence of ascites - 0 = no, 1 = yes.
 
 
-Presence of hepatomegaly - 0 = no, 1 = yes.
+***Presence of hepatomegaly*** - 0 = no, 1 = yes.
 
 
-Presence of spiders - 0 = no, 1 = Yes.
+***Presence of spiders*** - 0 = no, 1 = Yes.
 
-Presence of edema - 0 = no edema and no diuretic therapy for edema; 0.5 = edema present for which no diuretic therapy was given, or edema resolved with diuretic therapy; 1 = edema despite diuretic therapy
-
-
-Serum bilirubin - in mg/dl.
+***Presence of edema*** - 0 = no edema and no diuretic therapy for edema; 0.5 = edema present for which no diuretic therapy was given, or edema resolved with diuretic therapy; 1 = edema despite diuretic therapy
 
 
-Serum cholesterol - in mg/dl.
-
-Albumin- in gm/dl
+***Serum bilirubin*** - in mg/dl.
 
 
-Urine copper - in mg/day.
+***Serum cholesterol*** - in mg/dl.
+
+***Albumin***- in gm/dl
 
 
-Alkaline phosphatase - in U/liter.
+***Urine copper*** - in mg/day.
 
 
-SGOT - in U/ml.
+***Alkaline phosphatase*** - in U/liter.
 
 
-Triglycerides - in mg/dl.
+***SGOT*** - in U/ml.
 
 
-Platelet count - coded value is number of platelets per-cubic-milliliter of blood divided by 1000. 
+***Triglycerides*** - in mg/dl.
 
 
-Prothrombin time - in seconds.
+***Platelet count*** - coded value is number of platelets per-cubic-milliliter of blood divided by 1000. 
 
 
-Histologic stage of disease - graded 1, 2, 3, or 4.
+***Prothrombin time*** - in seconds.
+
+
+***Histologic stage of disease*** - graded 1, 2, 3, or 4.
+
+
+
+|  ***Methodologies used*** | ***Response Variable*** |
+|---|---|
+|  Linear Regression | Survival Time  |
+|  One way ANOVA |  Survival Time |
+| Logistic Regression  | Censoring  |
+|Survival Analysis   |   Survival Time
