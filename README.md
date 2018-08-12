@@ -1,6 +1,6 @@
 
 
-###Project Goal Analyze primary biliary cirrhosis (PBC) data using various methods.
+### Project Goal Analyze primary biliary cirrhosis (PBC) data using various methods.
 
 ### Data description
 
@@ -11,7 +11,7 @@ A randomized placebo controlled trial of the drug D-penicillamine is given to th
 
 ### Source of Data
 
-#####University of Massachusetts Amherst
+##### University of Massachusetts Amherst
 
 
 [Data Link - umass](https://www.umass.edu/statdata/statdata/data/pbc.txt)
