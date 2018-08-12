@@ -20,7 +20,7 @@ A randomized placebo controlled trial of the drug D-penicillamine is given to th
 
 SIZE: 418 observations, 20 variables
 
-Survival Time -The number of days between registration and the earlier of death, liver transplantation, or study analysis time in July, 1986.
+***Survival Time*** -The number of days between registration and the earlier of death, liver transplantation, or study analysis time in July, 1986.
 
 
 Censoring - 1 if X is time to death, 0 if time to censoring
