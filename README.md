@@ -73,9 +73,14 @@ Presence of ascites - 0 = no, 1 = yes.
 
 
 
+
+
 |  ***Methodologies used*** | ***Response Variable*** |
 |---|---|
 |  Linear Regression | Survival Time  |
 |  One way ANOVA |  Survival Time |
 | Logistic Regression  | Censoring  |
 |Survival Analysis   |   Survival Time
+
+
+[Final report]()
